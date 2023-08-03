@@ -1,0 +1,6 @@
+{
+  "extends": ["standard", "plugin:svelte/recommended"],
+  "rules": {
+    "no-undef-init": "off"
+  }
+}
