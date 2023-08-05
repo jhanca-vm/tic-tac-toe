@@ -4,11 +4,13 @@ export default {
   theme: {
     extend: {
       borderRadius: {
+        md: '0.3125rem',
         xl: '0.625rem',
         '2xl': '0.9375rem',
         '3xl': '1.25rem'
       },
       boxShadow: {
+        sm: '0 4px',
         DEFAULT: '0 8px'
       },
       colors: {
@@ -24,7 +26,8 @@ export default {
         },
         neutral: {
           100: '#dbe8ed',
-          200: '#a8bfc9'
+          200: '#a8bfc9',
+          300: '#6b8997'
         },
         base: {
           100: '#1f3641',
@@ -35,15 +38,16 @@ export default {
       fontFamily: {
         sans: ['Outfit Variable', 'sans-serif']
       },
-      letterSpacing: {
-        widest: '0.0625em'
-      },
       maxWidth: {
         md: '28.75rem'
       },
       spacing: {
+        13: '3.25rem',
         15: '3.75rem',
-        18: '4.5rem'
+        17: '4.25rem',
+        18: '4.5rem',
+        22: '5.5rem',
+        35: '8.75rem'
       }
     }
   }

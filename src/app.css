@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  body,
+  dialog {
+    @apply font-bold tracking-[0.0625em];
+  }
+
   main {
-    display: grid;
-    min-height: 100vh;
-    padding: 1.5rem;
+    @apply min-h-screen p-6 grid sm:p-8 md:p-10;
   }
 }

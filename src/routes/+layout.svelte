@@ -5,6 +5,7 @@
 
 <svelte:head>
   <title>Tic Tac Toe</title>
+  <meta name="description" content="Tic Tac Toe Game" />
 </svelte:head>
 
 <slot />
